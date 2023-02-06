@@ -1,6 +1,8 @@
 # exclude datasets
 rome-weather-dataset
+rome-weather-dataset-resized
 dall-e-dataset
+models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
