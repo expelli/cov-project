@@ -1,8 +1,11 @@
 # exclude datasets
-rome-weather-dataset
-rome-weather-dataset-resized
-dall-e-dataset
-models
+*.jpg
+*.jpeg
+*.gif
+*.png
+
+# exclude models
+*.hdf5
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
