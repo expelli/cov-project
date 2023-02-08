@@ -1,24 +1,23 @@
 # cov-project
+Samuel Hajes, Michael Heckmann, Selina Niederländer
+
+## Dall E Data
+https://drive.google.com/file/d/1sgIEgq86z13lYkGsmqcXtuOxA9-vp4gS/view?usp=sharing
 
 ## Setup: Conda environment
 
 ### 1) Ensure conda is installed
-### 2) Adapt the prefix: line in the environment.yml to your installation path of conda (end of file)
+### 2) Generate conda environment from environment.yml using the following command: 
 ```
-<...>
-prefix: <your-path-to-conda>\envs\cov-project
-```
-### 3) Generate conda environment from environment.yml using the following command: 
-```
-conda env create -f environment.yml
+conda env create -n cov-project -f environment.yml
 ```
 
-### 4) Activate the environment
+### 3) Activate the environment
 ```
 conda activate cov-project
 ```
 
-### 5) [In case of new package installations] Export new environment yaml using the following command
+### 4) [In case of new package installations] Export new environment yaml using the following command
 ```
 conda env export --no-builds > environment.yml
 ```
